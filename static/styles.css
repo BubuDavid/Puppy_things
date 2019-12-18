@@ -1,0 +1,51 @@
+body {
+    font-family: "Nunito";
+}
+
+section {
+    margin: 20px 0 20px 10%;
+}
+
+.sectionHeader {
+    text-align: center;
+    font-size: 3rem;
+}
+
+hr {
+    width: 70%;
+    background-color: cadetblue;
+}
+
+.card {
+    float: left;
+    margin: 10px 10px;
+    width: 20rem;
+    height: 30rem;
+}
+
+.jumbotron {
+    margin: 10px auto;
+}
+
+#jumbo-h1 {
+    text-align: center;
+}
+
+@media(max-width: 800px) {
+    .jumbotron {
+        width: 70%;
+    }
+    
+    #jumbo-h1 {
+        font-size: 1.5rem;
+    }
+    .card {
+        width: 16rem;
+    }
+}
+
+@media(min-width: 800px) and (max-width: 1200px) {
+    .card {
+        width: 18rem;
+    }
+}
